@@ -1,0 +1,43 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -DCMAKE_TOOLCHAIN_FILE=/Users/vmetreveli/.vcpkg-clion/vcpkg/scripts/buildsystems/vcpkg.cmake -G Ninja -S "/Users/vmetreveli/Library/Mobile Documents/com~apple~CloudDocs/Projects/C++/webApi" -B "/Users/vmetreveli/Library/Mobile Documents/com~apple~CloudDocs/Projects/C++/webApi/cmake-build-debug"
+-- Running vcpkg install
+Detecting compiler hash for triplet x64-osx...
+All requested packages are currently installed.
+Total install time: 459 ns
+crow provides CMake targets:
+
+    # this is heuristically generated, and may not be correct
+    find_package(Crow CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE Crow::Crow)
+
+-- Running vcpkg install - done
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindBoost.cmake:1384 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindBoost.cmake:1508 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindBoost.cmake:2119 (_Boost_MISSING_DEPENDENCIES)
+  cmake-build-debug/vcpkg_installed/x64-osx/share/boost/vcpkg-cmake-wrapper.cmake:11 (_find_package)
+  /Users/vmetreveli/.vcpkg-clion/vcpkg/scripts/buildsystems/vcpkg.cmake:813 (include)
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)
+  cmake-build-debug/vcpkg_installed/x64-osx/share/crow/CrowConfig.cmake:28 (find_dependency)
+  /Users/vmetreveli/.vcpkg-clion/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)
+  CMakeLists.txt:8 (find_package)
+
+
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindBoost.cmake:1384 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindBoost.cmake:1508 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindBoost.cmake:2119 (_Boost_MISSING_DEPENDENCIES)
+  cmake-build-debug/vcpkg_installed/x64-osx/share/boost/vcpkg-cmake-wrapper.cmake:11 (_find_package)
+  /Users/vmetreveli/.vcpkg-clion/vcpkg/scripts/buildsystems/vcpkg.cmake:813 (include)
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)
+  cmake-build-debug/vcpkg_installed/x64-osx/share/crow/CrowConfig.cmake:28 (find_dependency)
+  /Users/vmetreveli/.vcpkg-clion/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)
+  CMakeLists.txt:8 (find_package)
+
+
+-- Configuring done (7.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/vmetreveli/Library/Mobile Documents/com~apple~CloudDocs/Projects/C++/webApi/cmake-build-debug

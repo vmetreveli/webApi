@@ -1,0 +1,110 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/boost-mp11-x64-osx-1.83.0-184a0884-7376-4ca2-be64-bd80fbd085b1",
+  "name": "boost-mp11:x64-osx@1.83.0 2a5cda2d971af71adcbd4789f0a288749819a108cd9cb451fa83c1c8c53722c4",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-9990a4c9026811a312cb2af78bf77f3d9d288416"
+    ],
+    "created": "2023-09-24T15:22:24Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "boost-mp11",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "1.83.0",
+      "downloadLocation": "git+https://github.com/Microsoft/vcpkg@68c2556b43afbb853b5e724eb0fd5269a92088f1",
+      "homepage": "https://github.com/boostorg/mp11",
+      "licenseConcluded": "BSL-1.0",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "Boost mp11 module",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "boost-mp11:x64-osx",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "2a5cda2d971af71adcbd4789f0a288749819a108cd9cb451fa83c1c8c53722c4",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "BSL-1.0",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    },
+    {
+      "SPDXID": "SPDXRef-resource-1",
+      "name": "boostorg/mp11",
+      "downloadLocation": "git+https://github.com/boostorg/mp11@boost-1.83.0",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "d9db5afc318a0e28649d447b6c08fd0ee446bbc3b0d394607cf0430fd55350ea5dd75769bdb461abd39db6207dec5e76c4c468b9b6925d9608a62b7fdfdcfa05"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": ".//Users/vmetreveli/.vcpkg-clion/vcpkg/buildtrees/versioning_/versions/boost-mp11/68c2556b43afbb853b5e724eb0fd5269a92088f1/portfile.cmake",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1246f617b75f1ef678098c263f1129207d64ae3458db0f9ace0df1ba80ed1bb7"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": ".//Users/vmetreveli/.vcpkg-clion/vcpkg/buildtrees/versioning_/versions/boost-mp11/68c2556b43afbb853b5e724eb0fd5269a92088f1/vcpkg.json",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b2807b68dbaa2362b1b6e449d589b357ec51dc0f11d88d9fd73fb79aec85f30e"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}

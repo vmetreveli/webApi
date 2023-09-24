@@ -1,0 +1,3 @@
+/Users/vmetreveli/Library/Mobile Documents/com~apple~CloudDocs/Projects/C++/webApi/cmake-build-debug/CMakeFiles/webApi.dir
+/Users/vmetreveli/Library/Mobile Documents/com~apple~CloudDocs/Projects/C++/webApi/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/vmetreveli/Library/Mobile Documents/com~apple~CloudDocs/Projects/C++/webApi/cmake-build-debug/CMakeFiles/rebuild_cache.dir
