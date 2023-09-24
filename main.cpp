@@ -1,7 +1,9 @@
 #include "crow.h"
 #include <iostream>
-#include <vector>
+#include <nlohmann/json.hpp>
 #include <string>
+
+using json = nlohmann::json;
 
 int main() {
     crow::SimpleApp app;
@@ -10,25 +12,17 @@ int main() {
         return "Hello world";
     });
 
-    CROW_ROUTE(app, "/")([]() {
+    CROW_ROUTE(app, "/json")([]() {
 
-        std::string vec[3];
+        // Create an array
+        std::vector<std::string> names = {"Alice", "Bob", "Charlie", "test"};
 
-        vec[0] = "asdf";
-        vec[1] = "asdf";
-        vec[2] = "asdf";
+        // Convert the array to JSON
+        json jsonArray = names;
 
-        crow::response res;
-        res.set_header("Content-Type", "text/plain");
+        // Print the JSON
+        return jsonArray.dump();
 
-        // Join the strings from the array into a single string
-        std::string result;
-        for (const std::string &str: vec) {
-            result += str + "\n";
-        }
-
-        res.write(result);
-        return res;
     });
 
 

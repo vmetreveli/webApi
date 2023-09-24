@@ -533,3 +533,12 @@ Abi: 3883828eeb8df912c6bc72e1b2d59c8f62cd3b011850260b09e2d473997c26ff
 Description: Very fast and easy to use C++ micro web framework
 Status: install ok installed
 
+Package: nlohmann-json
+Version: 3.11.2
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-osx
+Multi-Arch: same
+Abi: dba0516506b625041468dffa91e28995d603b4dac6e61eb878277950d0883306
+Description: JSON for Modern C++
+Status: install ok installed
+

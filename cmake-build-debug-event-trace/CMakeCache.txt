@@ -302,6 +302,9 @@ Z_VCPKG_CL:FILEPATH=Z_VCPKG_CL-NOTFOUND
 // triplet
 _VCPKG_INSTALLED_DIR:PATH=/Users/vmetreveli/Library/Mobile Documents/com~apple~CloudDocs/Projects/C++/webApi/cmake-build-debug-event-trace/vcpkg_installed
 
+//The directory containing a CMake configuration file for nlohmann_json.
+nlohmann_json_DIR:PATH=/Users/vmetreveli/Library/Mobile Documents/com~apple~CloudDocs/Projects/C++/webApi/cmake-build-debug-event-trace/vcpkg_installed/x64-osx/share/nlohmann_json
+
 //Value Computed by CMake
 webApi_BINARY_DIR:STATIC=/Users/vmetreveli/Library/Mobile Documents/com~apple~CloudDocs/Projects/C++/webApi/cmake-build-debug-event-trace
 
@@ -469,6 +472,8 @@ CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[/Users/vmetreveli/Library/Mobile Documents/com~apple~CloudDocs/Projects/C++/webApi/cmake-build-debug-event-trace/vcpkg_installed/x64-osx/include][cfound components: system date_time ][v1.83.0(1.64)]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+//Details about finding nlohmann_json
+FIND_PACKAGE_MESSAGE_DETAILS_nlohmann_json:INTERNAL=[/Users/vmetreveli/Library/Mobile Documents/com~apple~CloudDocs/Projects/C++/webApi/cmake-build-debug-event-trace/vcpkg_installed/x64-osx/share/nlohmann_json/nlohmann_jsonConfig.cmake][v3.11.2()]
 //ADVANCED property for variable: VCPKG_VERBOSE
 VCPKG_VERBOSE-ADVANCED:INTERNAL=1
 //Making sure VCPKG_MANIFEST_MODE doesn't change
